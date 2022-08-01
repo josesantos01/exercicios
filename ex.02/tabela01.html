@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title><link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <style>
+        caption{
+            font-size: 1.5em ;
+            font-weight: bolder;
+            padding: 5px;
+            background-color: rgb(184, 203, 219);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse; 
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead, tfoot{
+            background-color: rgba(43, 40, 40, 0.463);
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <caption>população das unidades federatimas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td class="num">986 856 52</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">215 663 547</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">142 564 789</td>
+            </tr>
+            <tr>
+             <td>pernanbuco</td>
+             <td class="num">102 456 321</td>
+            </tr>
+            <tr>
+                <td>rondonia</td>
+                <td class="num">123 789 456</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">147 852 963</td>
+            </tr>
+            <tr>
+                <td>baia</td>
+                <td class="num">145 785 963</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td class="num">489 452 456</td>
+            </tr>
+            <tr>
+                <td>rio grande do sul</td>
+                <td class="num">321 456 987</td>
+            </tr>
+            <tr>
+                <td>rio grande do norte</td>
+                <td class="num">259 412 368</td>
+            </tr>
+            <tr>
+                <td>roraima</td>
+                <td class="num">012 658 97</td>
+            </tr>
+            <tr>
+                <td>piaui</td>
+                <td class="num">145 632 789</td>
+            </tr>
+            <tr>
+                <td>acre</td>
+                <td class="num">125 786 36</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td class="num">258 963 741</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th scope="row">poulação total</th>
+            <td class="num">002 145 8</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
